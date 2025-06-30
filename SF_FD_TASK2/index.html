@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">E-Learn</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to E-Learn</h1>
+            <p>Explore interactive and engaging online courses!</p>
+        </section>
+
+        <section class="courses">
+            <h2>Popular Courses</h2>
+            <div class="course-list">
+                <div class="course-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Learn the basics of web development.</p>
+                    <button onclick="enroll('HTML & CSS')">Enroll</button>
+                </div>
+                <div class="course-card">
+                    <h3>JavaScript Essentials</h3>
+                    <p>Build dynamic web applications.</p>
+                    <button onclick="enroll('JavaScript Essentials')">Enroll</button>
+                </div>
+                <div class="course-card">
+                    <h3>Python Programming</h3>
+                    <p>Master Python for data and backend.</p>
+                    <button onclick="enroll('Python Programming')">Enroll</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 E-Learn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
